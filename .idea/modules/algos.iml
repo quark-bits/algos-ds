@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="algos" external.linked.project.path="$MODULE_DIR$/../../algos" external.root.project.path="$MODULE_DIR$/../../algos" external.system.id="GRADLE" external.system.module.group="quarks" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../algos" rootProjectPath="$MODULE_DIR$/../../algos" />
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../algos">
+      <excludeFolder url="file://$MODULE_DIR$/../../algos/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../algos/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../algos/out" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
