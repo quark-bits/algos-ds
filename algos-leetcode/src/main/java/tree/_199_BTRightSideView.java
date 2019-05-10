@@ -38,7 +38,7 @@ import java.util.Stack;
  *   5     4       <---
  *
  */
-public class BTRightSideView_199 {
+public class _199_BTRightSideView {
     public List<Integer> rightSideView(TreeNode root) {
         // Do Level Ordering and get the rightMost elements.
         List<Integer> result = new ArrayList<>();
@@ -61,9 +61,3 @@ public class BTRightSideView_199 {
 }
 
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
