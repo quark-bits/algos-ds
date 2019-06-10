@@ -1,4 +1,4 @@
-##Problem
+## Problem
 
     Given a binary tree, find its maximum depth.
     
@@ -17,9 +17,9 @@
        15   7
     return its depth = 3.
 
-##Solution
+## Solution
 
-####Recursive Approach:
+#### Recursive Approach:
 Recursive approach is straightforward.
 
     MaxDepth_Recursive(Node):
@@ -29,8 +29,8 @@ Recursive approach is straightforward.
         Call MaxDepth_Recursive(Node.RIGHT)
         Return Max(MAX_DEPTH_LEFT,MAX_DEPTH_RIGHT)+1
         
-######Complexity:
+###### Complexity:
 
 
-####Iterative Approach:
-######Complexity:
+#### Iterative Approach:
+###### Complexity:

@@ -1,4 +1,4 @@
-##Problem
+## Problem
 
 Given a binary tree, return the inorder traversal of its nodes' values.
 
@@ -13,12 +13,12 @@ Example:
 
     Output: [1,3,2]
     
-######Follow up: Recursive solution is trivial, could you do it iteratively?
+###### Follow up: Recursive solution is trivial, could you do it iteratively?
 
-##Solution
+## Solution
 InOrder Traversal is to visit Left Node --> Parent Node --> Right Node.
 
-####Recursive Approach:
+#### Recursive Approach:
 Recursive approach is straightforward.
 
     Inorder_Traverse(List, Node):
@@ -32,9 +32,9 @@ Recursive approach is straightforward.
             }       
         }
     
-######Complexity:
+###### Complexity:
 
-####Iterative Approach:
+#### Iterative Approach:
 Recursive approach uses <b>Stack</b> internally. Here we'll use Stack DataStructure to explicitly control the nodes to visit.
 
     Inorder_Iterative(Node)
@@ -47,4 +47,4 @@ Recursive approach uses <b>Stack</b> internally. Here we'll use Stack DataStruct
             3. GoTo Step 3.
         5. Step 3,4 gets repeated until 'S' is Not empty.     
             
-######Complexity
+###### Complexity

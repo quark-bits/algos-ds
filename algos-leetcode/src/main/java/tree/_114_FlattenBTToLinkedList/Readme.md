@@ -1,4 +1,4 @@
-##Problem
+## Problem
 Given a binary tree, flatten it to a linked list in-place.
 
     For example, given the following tree:
@@ -21,7 +21,7 @@ Given a binary tree, flatten it to a linked list in-place.
              \
               6
 
-##Solution
+## Solution
 Building LinkedList Out-of-Place is Trivial. We can do PreOrder Traversal and build the LinkedList.
 This question expects in-place solution.
   
@@ -36,6 +36,6 @@ This question expects in-place solution.
         N.RIGHT = N.LEFT        
         
             
-######Complexity:
+###### Complexity:
 
 
